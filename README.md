@@ -4,9 +4,10 @@ This tool will tell you how soon a flight is supposed to land. It will also tell
 Airline Abriviations - Flight Number
 
 Common Airlines
-| Airline | American Airlines | Delta AirLines | Southwest Airlines | United Airlines | Alaska Airlines | Hawaiian Airlines | JetBlue Airlines | Spirit Airlines | Virgin Airlines
-| ------- | --- | --- | --- | ---- | --- | ---- | --- | --- | --- |
-| Abriviation | AAL | DAL | SWA | UAL | ASA | HAL | JBU | NKS | VRD
+| Airline | Abriviation (ICAO) |
+| ------- | ----------- |
+| Alaska Airline | ASA |
+
 Full list
 https://en.wikipedia.org/wiki/List_of_airline_codes
 # Installation Tutorial
