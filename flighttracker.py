@@ -1,18 +1,9 @@
 #import libraries
-import urllib2 
+from bs4 import BeautifulSoup #pip install bs4
 import keyboard #pip install keyboard
+import urllib2 
 import threading
 from datetime import date
-from bs4 import BeautifulSoup #pip install bs4
-today = date.today()
-flightnum = raw_input('Enter airline code - flight number: ')
-seconds = input('How often do you want to check?: ')
-url = 'https://www.kayak.com/tracker/' + flightnum + '/' + str(today)
-print 'Checking for flight ' + flightnum + ' every ' + str(seconds) + ' seconds'
-#print url
-#print today
-#print flightnum
-#print seconds
 
 def track():
  if seconds > 0:
@@ -29,11 +20,26 @@ def track():
  if seconds > 0:
   while True:
    try:
-    if keyboard.is_pressed('space'):
+    if keyboard.is_pressed('escape'):
      clock.cancel()
      break
     else:
      pass
    except:
     break
-track()
+
+def var():
+ today = date.today()
+ flightnum = raw_input('Enter airline ICAO code - flight number: ')
+ global seconds 
+ seconds = input('How often do you want to check? (seconds): ')
+ global url 
+ url = 'https://www.kayak.com/tracker/' + flightnum + '/' + str(today)
+ print 'Checking for flight ' + flightnum + ' every ' + str(seconds) + ' seconds'
+# print url
+# print today
+# print flightnum
+# print seconds
+ track()
+
+var()
