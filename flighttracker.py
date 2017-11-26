@@ -19,6 +19,7 @@ def track():
   clock = threading.Timer(seconds, track)
   clock.start()
  webPage = urllib2.urlopen(url)
+# print str(webPage.getcode())
  soup = BeautifulSoup(webPage, 'html.parser')
  status_box = soup.find('div', {'class' : 'keel-grid statusSubHeadline'})
  status = status_box.text.strip()
