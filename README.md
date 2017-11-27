@@ -45,6 +45,7 @@ In your virtual enviroment run flighttracker.py.
 First it will ask for your flight code. This code is in ICAO format, two parts the airlines and the flight number seperated by a hyphen. 
 
 ![example flight](https://github.com/colinhalebrown/Flight-Tracker/blob/master/images/asa-123.PNG)
+Here is an example using flight asa-123 (Alaska Airline flight 123)
 
 | Airline | ICAO Airline Codes |
 | ------- | ----------- |
@@ -64,5 +65,5 @@ After You have put in your airline code input how often you want it to check the
 
 ![examaple flight 2](https://github.com/colinhalebrown/Flight-Tracker/blob/master/images/asa-123(2).PNG)
 
-#Common Errors
+# Common Errors
 If the flight ICAO code or flight number are noT accociated with an actual flight it will check and give a large error code every few seconds. 
