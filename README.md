@@ -33,16 +33,16 @@ pip install keyboard
 ```
 ## [Download](https://github.com/colinhalebrown/Flight-Tracker/archive/master.zip) the Code
 In whatever instane of python you have installed the liberaries in [download](https://github.com/colinhalebrown/Flight-Tracker/archive/master.zip) or [clone](https://github.com/colinhalebrown/Flight-Tracker.git) and move the flighttracker.py to that destination.
-![Folder example](Flight-Tracker/images/folder.PNG)
+![Folder example](https://github.com/colinhalebrown/Flight-Tracker/blob/master/images/folder.PNG)
 ## Run flighttracker.py
 In your virtual enviroment run flighttracker.py.
 
-![console](/images/run.png)
+![console](https://github.com/colinhalebrown/Flight-Tracker/blob/master/images/run.PNG)
 
 ## Input your flight & check time
 First it will ask for your flight code. This code is in ICAO format, two parts the airlines and the flight number seperated by a hyphen. 
 
-![example flight](Flight-Tracker/images/run.PNG)
+![example flight](https://github.com/colinhalebrown/Flight-Tracker/blob/master/images/asa-123.PNG)
 
 | Airline | ICAO Airline Codes |
 | ------- | ----------- |
@@ -60,4 +60,4 @@ First it will ask for your flight code. This code is in ICAO format, two parts t
 
 After You have put in your airline code input how often you want it to check the status of the flight in seconds. If you want it to only check once input 0. If you input a number greater than 0 to stop it hit enter and it will end the program. 
 
-![examaple flight 2](Flight-Tracker/images/asa-123(2).PNG)
+![examaple flight 2](https://github.com/colinhalebrown/Flight-Tracker/blob/master/images/asa-123(2).PNG)
