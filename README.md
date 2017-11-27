@@ -39,14 +39,14 @@ In whatever instane of python you have installed the liberaries in [download](ht
 ## Run flighttracker.py
 In your virtual enviroment run flighttracker.py.
 
-![console](https://github.com/colinhalebrown/Flight-Tracker/blob/master/images/run.PNG)
+![console](https://github.com/colinhalebrown/Flight-Tracker/blob/master/images/run.GIF)
 
 ## Input your flight & check time
 First it will ask for your flight code. This code is in ICAO format, two parts the airlines and the flight number seperated by a hyphen. 
 
 Here is an example using flight asa-123 (Alaska Airline flight 123)
 
-![example flight ASA-123](https://github.com/colinhalebrown/Flight-Tracker/blob/master/images/asa-123.PNG)
+![example flight ASA-123](https://github.com/colinhalebrown/Flight-Tracker/blob/master/images/asa-123.GIF)
 
 | Airline | ICAO Airline Codes |
 | ------- | ----------- |
