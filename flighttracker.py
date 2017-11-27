@@ -19,14 +19,9 @@ def track():
  print flight + ' ' + status
  if seconds > 0:
   while True:
-   try:
     if keyboard.is_pressed('escape'):
      clock.cancel()
      break
-    else:
-     pass
-   except:
-    break
 
 def var():
  today = date.today()
