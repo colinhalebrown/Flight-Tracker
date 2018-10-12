@@ -1,4 +1,5 @@
 # Flight Tracker
+
 This tool will tell you how soon a flight is supposed to land. It will also tell you the status of the flight whether it is on time, delayed, or if it has landed. Just follow the promts, and you will be recieving flight updates in to time. It uses twilio to send you live updates to your phone, so an account is needed at this time.
 
 ICAO Airline Code - Flight Number
@@ -28,7 +29,8 @@ Common Airlines
 This tool is made for python 2.7.14, mileage may vary. 
 
 ## Install Needed Liberaries
-Open your virtual enviroment, or what ever instance of python you intend on using, and install three liberaries: BeautifulSoup4, twilio and Keyboard.
+
+Open your virtual enviroment, or whatever instance of python you intend on using, and install three liberaries: BeautifulSoup4, twilio and Keyboard.
 
 ```python
 pip install bs4
