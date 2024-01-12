@@ -1,3 +1,6 @@
+# THIS PROJECT IS ARCHIVED
+It was made for an IB CS assignment.
+
 # Flight Tracker
 
 This tool will tell you how soon a flight is supposed to land. It will also tell you the status of the flight whether it is on time, delayed, or if it has landed. Just follow the promts, and you will be recieving flight updates in to time. It uses twilio to send you live updates to your phone, so an account is needed at this time.
